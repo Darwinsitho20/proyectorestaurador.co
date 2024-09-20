@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unificación de la Gran Colombia</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            background-color: #f8f3e3;
+            font-family: Arial, sans-serif;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            margin: 0 auto;
+            width: 80%;
+            padding: 20px;
+        }
+
+        /* Ajustar tamaño de la bandera y el escudo */
+        .flag-shield {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .flag-shield img {
+            width: 200px; /* Tamaño ajustado tanto para la bandera como el escudo */
+            margin: 0 10px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin: 20px 0; /* Espacio entre los títulos y el texto */
+            text-align: center; /* Centrar títulos */
+        }
+
+        p {
+            text-align: justify; /* Justificar texto */
+        }
+
+        .divider {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            padding: 10px 0;
+            margin: 10px 0;
+        }
+
+        .music-player {
+            margin: 20px 0;
+        }
+
+        /* Ajustar el tamaño del mapa */
+        .map {
+            width: 70%; /* Ajustar el ancho del mapa */
+            margin: 20px auto;
+        }
+
+        .line {
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            margin: 30px 0;
+        }
+
+        .tooltip {
+            display: inline-block;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .tooltip-text {
+            visibility: hidden;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            border-radius: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .tooltip:hover .tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Imágenes de la bandera y el escudo -->
+        <div class="flag-shield">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Gran_Colombia.svg/1200px-Flag_of_Gran_Colombia.svg.png" alt="Bandera de la Gran Colombia">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Coat_of_arms_of_Gran_Colombia_%281821%29.svg/100px-Coat_of_arms_of_Gran_Colombia_%281821%29.svg.png" alt="Escudo de la Gran Colombia">
+        </div>
+
+        <!-- Lema -->
+        <h2>Unión, Libertad e Igualdad</h2>
+
+        <!-- Reproductor de música -->
+        <div class="music-player">
+            <audio controls>
+                <source src="c:\Users\myuli\Documents\SOLO WEB\Hipotesis\Himno Patriótico de Colombia (1819-1831)_ Marcha Libertadora.mp3" type="audio/mpeg">
+                Tu navegador no soporta la reproducción de audio.
+            </audio>
+        </div>
+
+        <!-- Título: República de Colombia -->
+        <h1>REPÚBLICA DE COLOMBIA</h1>
+
+        <!-- Mapa de la unión -->
+        <img class="map" src="c:\Users\myuli\Documents\SOLO WEB\Hipotesis\04-mapa_de_la_gran_colombia_1821_a_1831_s.jpg">
+
+<!-- Descripción de la unión con línea semitransparente -->
+<div style="max-width: 800px; margin: 0 auto;">
+    <div class="divider">
+        <div style="float: left; width: 200px;">CAPITAL:</div>
+        <div style="float: right; width: calc(100% - 200px);">Bogotá D.C. (y ciudad más poblada de la federación)</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">SEDE ADMINISTRATIVA:</div>
+        <div style="float: right; width: calc(100% - 200px);">Casa de Nariño</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">IDIOMA OFICIAL:</div>
+        <div style="float: right; width: calc(100% - 200px);">Español (Castellano)</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">COOFICIAL:</div>
+        <div style="float: right; width: calc(100% - 200px);">Lenguas Colombianas e Indígenas, Portugués, Holandés e Inglés Criollo</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">FORMA DE GOBIERNO:</div>
+        <div style="float: right; width: calc(100% - 200px);">República Democrática Federal Constitucional - Presidencialista</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">TIPO DE ECONOMÍA:</div>
+        <div style="float: right; width: calc(100% - 200px);">Economía Social de Mercado</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">ORGANISMO EJECUTIVO:</div>
+        <div style="float: right; width: calc(100% - 200px);">Presidente de la República y Gabinete</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">ORGANISMO LEGISLATIVO:</div>
+        <div style="float: right; width: calc(100% - 200px);">Congreso de la República de Colombia</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">ORGANISMO JUDICIAL:</div>
+        <div style="float: right; width: calc(100% - 200px);">Corte Suprema de Justicia</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">ORGANIZACIÓN TERRITORIAL:</div>
+        <div style="float: right; width: calc(100% - 200px);">54 Estados, Distrito Capital</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">SUPERFICIE TOTAL:</div>
+        <div style="float: right; width: calc(100% - 200px);">3,281,768 km² (8º) (Agua: 15%)</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">POBLACIÓN TOTAL:</div>
+        <div style="float: right; width: calc(100% - 200px);">108,459,000 habitantes (15º)</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">PIB (PPA):</div>
+        <div style="float: right; width: calc(100% - 200px);">Total: 1,210,000 millones USD (Per cápita: 17,190 USD)</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">PIB (nominal):</div>
+        <div style="float: right; width: calc(100% - 200px);">Total: 565,000 millones USD (Per cápita: 7,247 USD)</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">IDH:</div>
+        <div style="float: right; width: calc(100% - 200px);">0,794 (73°) Muy Alto</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">MONEDA:</div>
+        <div style="float: right; width: calc(100% - 200px);">Peso Colombiano (COP)</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">HUSO HORARIO:</div>
+        <div style="float: right; width: calc(100% - 200px);">UTC-6, UTC-5 y UTC-4</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">PRINCIPAL EXPORTACIÓN:</div>
+        <div style="float: right; width: calc(100% - 200px);">Petróleo, Carbón, Esmeraldas, Café, Tecnología, Alimentos, Vehículos, entre otros</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">EJÉRCITO NACIONAL:</div>
+        <div style="float: right; width: calc(100% - 200px);">Activos: 530,000, Reservas: 1,124,000, Total: 1,654,000</div>
+    </div>
+
+    <div class="divider">
+        <div style="float: left; width: 200px;">ARMAMENTO:</div>
+        <div style="float: right; width: calc(100% - 200px);">Total de Armamento: 3,043</div>
+    </div>
+</div>
+
+
+        <!-- Línea divisora -->
+        <div class="line"></div>
+
+        <!-- Textos adicionales -->
+        <h2>Proceso de Unificación de la Gran Colombia</h2>
+        <p>La unificación de la Gran Colombia sería un proceso histórico y ambicioso que implicaría la integración política, económica, y social de varias naciones latinoamericanas con un legado común. Este proceso se llevaría a cabo en varias fases, con el objetivo de consolidar una nueva federación que abrace el ideal de la antigua Gran Colombia, preservando la soberanía y diversidad de los estados involucrados.</p>
+
+        <h2>Fase Preparatoria: Diálogo y Consenso Regional</h2>
+        <p>El primer paso sería convocar una cumbre de líderes de Colombia, Venezuela, Ecuador, Panamá, y otras naciones involucradas, como Trinidad y Tobago. En esta fase, los mandatarios y sus equipos técnicos establecerían un marco legal y político para la unificación. La creación de un tratado de intención sería esencial, delineando los principios y objetivos de la unión, tales como la defensa conjunta, libre comercio, e integración en infraestructura.</p>
+
+        <h2>Reforma Constitucional y Referendos Populares</h2>
+        <p>Para que la unificación sea legítima y tenga el apoyo de la ciudadanía, cada país involucrado llevaría a cabo referendos nacionales. Las reformas constitucionales necesarias para permitir la integración se debatirían en los congresos de cada nación, buscando un balance entre el respeto a las autonomías locales y la creación de instituciones federales.</p>
+
+        <h2>Creación de Instituciones Federales</h2>
+        <p>Una vez aprobado el proceso de unificación, se crearían las instituciones federales, incluyendo un Congreso Federal con representación proporcional de cada estado, una Presidencia Federal rotativa o electa democráticamente, y una Corte Suprema Federal encargada de dirimir conflictos entre estados. Además, se establecería una moneda común y un sistema de distribución de recursos entre los miembros.</p>
+
+        <h2>Integración Económica y Social</h2>
+        <p>La unificación económica sería una prioridad. Los países establecerían una zona de libre comercio y un sistema fiscal compartido. Se buscaría homologar leyes laborales, de comercio, y aduaneras para facilitar el flujo de bienes, servicios, y personas. La inversión en infraestructura sería clave para mejorar la conectividad entre los estados, promoviendo un mercado común.</p>
+
+        <h2>Defensa y Política Exterior</h2>
+        <p>Un ejército unificado garantizaría la seguridad nacional de la nueva Gran Colombia, permitiendo a los estados compartir recursos militares y cooperar en defensa estratégica. La política exterior se manejaría a través de un cuerpo diplomático conjunto que represente los intereses de la federación en el escenario internacional.</p>
+
+        <h2>Desafíos y Adaptaciones</h2>
+        <p>El proceso de unificación también enfrentaría desafíos significativos, como la adaptación cultural y el manejo de conflictos entre los distintos intereses nacionales. Sería fundamental establecer mecanismos de diálogo continuo entre las regiones para asegurar que los derechos y las aspiraciones de cada estado sean respetados en la nueva federación.
+
+            En conjunto, la unificación de la Gran Colombia no solo sería un acto de consolidación histórica, sino un proyecto audaz de integración que podría servir como modelo para otras regiones del mundo que busquen la cooperación pacífica y el desarrollo mutuo.</p>
+
+        <h2>Implicaciones y Liderazgo</h2>
+        <p>La unificación de la fuerza militar de la Gran Colombia tendría profundas implicaciones tanto a nivel regional como global. En primer lugar, la creación de un ejército robusto y bien equipado permitiría a la Gran Colombia proyectar una imagen de poder y estabilidad, disuadiendo potenciales amenazas externas y asegurando la defensa de sus territorios. Este ejército unificado podría llevar a cabo operaciones conjuntas en caso de crisis regionales, participando en misiones de paz y ayudando a estabilizar naciones vecinas en conflicto. La capacidad de movilizar rápidamente un gran número de tropas activas y de reservas fortalecería la seguridad interna y promovería un entorno de confianza entre los estados miembros, facilitando el desarrollo económico y social.
+
+            Desde el punto de vista del liderazgo, la Gran Colombia podría asumir un papel preeminente en América Latina, convirtiéndose en un referente en asuntos de defensa y seguridad. Su fuerza militar sería vista como un elemento clave para la cooperación regional, permitiendo liderar iniciativas de integración y desarrollo militar, así como establecer alianzas estratégicas con otros países. Esta posición podría traducirse en un mayor peso político en organizaciones internacionales como la OEA y la ONU, donde la Gran Colombia podría abogar por políticas que beneficien a los países de la región.
+            
+            A nivel global, una Gran Colombia militarmente fuerte y cohesionada podría actuar como un interlocutor significativo en temas de seguridad internacional, participando en negociaciones sobre desarme y cooperación en la lucha contra el narcotráfico y el terrorismo. Su potencial militar podría atraer la atención de potencias extranjeras, que verían en la Gran Colombia un aliado estratégico en América Latina. De este modo, la fuerza militar unificada no solo aseguraría la defensa del territorio, sino que también colocaría a la Gran Colombia en una posición de liderazgo y respeto en la comunidad internacional, promoviendo un modelo de cooperación y paz que podría inspirar otras regiones del mundo.</p>
+
+        <h2>Potencial de la Economía</h2>
+        <p>La unificación de la Gran Colombia crearía una de las economías más dinámicas y diversificadas de América Latina, con un impacto significativo a nivel regional y global. La fusión de las economías de Colombia, Venezuela, Ecuador, Panamá y otras naciones involucradas en el proceso ofrecería un mercado ampliado y complementario, con vastos recursos naturales, una población joven y capacitada, y un crecimiento potencial en diversos sectores estratégicos.</p>
+
+        <h2>Recursos Naturales Abundantes</h2>
+        <p>Uno de los pilares de la economía de la Gran Colombia sería la vasta riqueza de recursos naturales. Los territorios unificados contarían con importantes reservas de petróleo, especialmente en Venezuela y Colombia, que son productores clave en la región. Además, la minería de oro, esmeraldas y otros minerales en Colombia, así como la extracción de cobre en Ecuador, proporcionarían ingresos significativos. El país también contaría con una de las reservas de agua dulce más grandes del mundo, sumada a vastas extensiones de tierras fértiles para la agricultura y la producción de alimentos.</p>
+
+        <h2>Sector Energético Diversificado</h2>
+        <p>La Gran Colombia podría posicionarse como una potencia energética regional. Además del petróleo, tendría un importante potencial en energías renovables, aprovechando las extensas fuentes hidroeléctricas en Colombia, Ecuador y Venezuela. Panamá, con su canal y ubicación estratégica, podría convertirse en un centro logístico y energético clave, facilitando el comercio de energía y bienes entre los océanos Atlántico y Pacífico. Además, con las iniciativas de transición energética, se fomentaría el desarrollo de energías limpias como la solar y la eólica.</p>
+
+        <h2>Agricultura y Alimentos</h2>
+        <p>Con la integración de zonas productoras de café, cacao, frutas tropicales, banano y flores, la Gran Colombia sería un actor clave en el mercado global de alimentos. Colombia y Ecuador, principales exportadores agrícolas, junto con la capacidad de Venezuela para aumentar su producción, harían que el nuevo estado sea autosuficiente en muchos alimentos y un gran exportador de productos agrícolas de alto valor añadido.</p>
+
+        <h2>Manufactura y Tecnología</h2>
+        <p>La unificación también permitiría el desarrollo de una base industrial más sólida y diversificada. Sectores como la automotriz, la producción de bienes electrónicos, y la tecnología verían un crecimiento significativo. La combinación de zonas industriales en Venezuela y Colombia, con el acceso a materias primas, abriría la puerta para la producción a gran escala, mientras que la integración de zonas francas y de desarrollo en Panamá fomentaría la inversión extranjera directa. Asimismo, los avances en tecnología e innovación podrían ser impulsados por la creación de polos de investigación en ciudades clave.</p>
+
+        <h2>Turismo y Servicios</h2>
+        <p>Con la biodiversidad del Amazonas, las playas caribeñas de Venezuela y Colombia, las Islas Galápagos en Ecuador, y el Canal de Panamá, la Gran Colombia tendría un potencial inmenso en el turismo. La unificación mejoraría la conectividad y promovería un enfoque turístico integrador que atraería a millones de visitantes internacionales. Además, la inversión en infraestructura hotelera y servicios fortalecería la industria del turismo como un generador clave de empleo.</p>
+
+        <h2>Un Mercado de Consumo Ampliado</h2>
+        <p>La creación de un mercado interno unificado con más de 100 millones de habitantes permitiría a las empresas operar en una escala mucho mayor, estimulando la inversión local y extranjera. El poder adquisitivo se vería beneficiado por la diversificación económica y el desarrollo de una clase media fuerte, lo que impulsaría el comercio interno de productos y servicios.</p>
+
+        <h2>Ventaja Geopolítica y Comercio Internacional</h2>
+        <p>Ubicada entre dos océanos y con acceso directo al Canal de Panamá, la Gran Colombia tendría una ventaja geopolítica única en el comercio internacional. Se convertiría en un importante centro logístico, facilitando el tránsito de mercancías entre Asia, Europa y América. Además, las exportaciones de productos básicos, manufacturas y servicios de alta tecnología podrían aprovechar acuerdos comerciales con otras naciones y bloques económicos, como el Mercosur y la Alianza del Pacífico.</p>
+
+        <h2>Desafíos a Superar</h2>
+        <p>Para aprovechar completamente su potencial económico, la Gran Colombia tendría que enfrentar ciertos desafíos como la reducción de la dependencia de los recursos naturales, la modernización de la infraestructura, la consolidación de políticas fiscales comunes, y la mejora de la educación y formación laboral para generar una fuerza laboral competitiva. Sin embargo, el potencial económico sería inmenso, con la capacidad de convertirse en una de las principales economías de América Latina y un actor global emergente.</p>
+    
+        </div>
+    </body>
+    </html>
+    
